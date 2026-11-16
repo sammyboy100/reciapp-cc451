@@ -1,0 +1,46 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: reciapp
+      POSTGRES_PASSWORD: reciapp
+      POSTGRES_DB: reciapp
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U reciapp"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      # Código montado: --reload toma los cambios sin reconstruir la imagen,
+      # y el cache OSM (app/data) sobrevive a los rebuilds.
+      - .:/app
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql://reciapp:reciapp@db:5432/reciapp
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # LLM local opcional:  docker compose --profile llm-local up
+  # y en .env:  LLM_PROVIDER=ollama  LLM_BASE_URL=http://ollama:11434/v1  LLM_MODEL=llama3.2:3b
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["llm-local"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+
+volumes:
+  pgdata:
+  ollama:

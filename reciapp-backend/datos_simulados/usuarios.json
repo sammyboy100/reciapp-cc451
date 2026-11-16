@@ -1,0 +1,128 @@
+{
+  "contrasena_comun": "Reciapp2026!",
+  "usuarios": [
+    {
+      "ref": "admin",
+      "nombre": "Valeria Admin Quispe",
+      "correo": "admin@reciapp.pe",
+      "rol": "admin",
+      "dni": "70000001",
+      "celular": "900000001"
+    },
+    {
+      "ref": "lucia",
+      "nombre": "Lucía Torres Ramos",
+      "correo": "lucia@reciapp.pe",
+      "rol": "ciudadano",
+      "dni": "71234561",
+      "celular": "987654321",
+      "persona": "Ama de casa, 38 años, usa el celular con una mano mientras cocina; prefiere la voz."
+    },
+    {
+      "ref": "carlos",
+      "nombre": "Carlos Vega Paredes",
+      "correo": "carlos@reciapp.pe",
+      "rol": "ciudadano",
+      "dni": "71234562",
+      "celular": "987654322",
+      "persona": "Estudiante de 21 años, usuario experto, usa texto y es rápido."
+    },
+    {
+      "ref": "rosa",
+      "nombre": "Rosa Quispe Mamani",
+      "correo": "rosa@reciapp.pe",
+      "rol": "ciudadano",
+      "dni": "71234563",
+      "celular": "987654323",
+      "persona": "Adulta mayor de 67 años con baja visión: letra muy grande, alto contraste y lectura en voz alta."
+    },
+    {
+      "ref": "miguel",
+      "nombre": "Miguel Salas Huerta",
+      "correo": "miguel@reciapp.pe",
+      "rol": "ciudadano",
+      "dni": "71234564",
+      "celular": "987654324",
+      "persona": "Usuario de silla de ruedas, 45 años; necesita que el recojo sea en la puerta y objetivos táctiles grandes."
+    },
+    {
+      "ref": "ana",
+      "nombre": "Ana Ríos Cárdenas",
+      "correo": "ana@reciapp.pe",
+      "rol": "ciudadano",
+      "dni": "71234565",
+      "celular": "987654325",
+      "persona": "Docente y coordinadora de la Brigada Verde del colegio."
+    },
+    {
+      "ref": "jorge",
+      "nombre": "Jorge Huamán Ccori",
+      "correo": "jorge@reciapp.pe",
+      "rol": "ciudadano",
+      "dni": "71234566",
+      "celular": "987654326",
+      "persona": "Persona sorda de 30 años: depende de textos, vibración y feedback visual; no usa voz."
+    },
+    {
+      "ref": "juan",
+      "nombre": "Juan Mamani Condori",
+      "correo": "juan.reciclador@reciapp.pe",
+      "rol": "reciclador",
+      "dni": "42345671",
+      "celular": "976543211",
+      "zona_cobertura": "Puente Piedra centro, Santa Rosa",
+      "disponibilidad_horaria": "mañana, tarde",
+      "estado_validacion": "aprobado",
+      "latitud": -11.8655,
+      "longitud": -77.0745
+    },
+    {
+      "ref": "rosah",
+      "nombre": "Rosa Huamán Flores",
+      "correo": "rosa.reciclador@reciapp.pe",
+      "rol": "reciclador",
+      "dni": "42345672",
+      "celular": "976543212",
+      "zona_cobertura": "Zapallal, Laderas de Chillón",
+      "disponibilidad_horaria": "tarde, noche",
+      "estado_validacion": "aprobado",
+      "latitud": -11.8501,
+      "longitud": -77.0832
+    },
+    {
+      "ref": "pedro",
+      "nombre": "Pedro Ríos Saavedra",
+      "correo": "pedro.reciclador@reciapp.pe",
+      "rol": "reciclador",
+      "dni": "42345673",
+      "celular": "976543213",
+      "zona_cobertura": "Shangrila, Las Vegas",
+      "disponibilidad_horaria": "mañana",
+      "estado_validacion": "aprobado",
+      "latitud": -11.879,
+      "longitud": -77.062
+    },
+    {
+      "ref": "mateo",
+      "nombre": "Mateo Flores Inga",
+      "correo": "mateo.reciclador@reciapp.pe",
+      "rol": "reciclador",
+      "dni": "42345674",
+      "celular": "976543214",
+      "zona_cobertura": "Puente Piedra norte",
+      "disponibilidad_horaria": "mañana, noche",
+      "estado_validacion": "pendiente"
+    },
+    {
+      "ref": "carmen",
+      "nombre": "Carmen Salas Yupanqui",
+      "correo": "carmen.reciclador@reciapp.pe",
+      "rol": "reciclador",
+      "dni": "42345675",
+      "celular": "976543215",
+      "zona_cobertura": "Santa Rosa",
+      "disponibilidad_horaria": "tarde",
+      "estado_validacion": "pendiente"
+    }
+  ]
+}

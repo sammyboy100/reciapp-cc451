@@ -1,0 +1,215 @@
+{
+  "salas": [
+    {
+      "ref": "santarosa",
+      "nombre": "Vecinos de Santa Rosa",
+      "descripcion": "Juntamos plástico y cartón cada semana para la feria de reciclaje del parque.",
+      "tipo": "barrio",
+      "distrito": "Puente Piedra",
+      "meta_kg": 120,
+      "emoji": "🏘️",
+      "publica": true,
+      "codigo": "STROSA",
+      "creador": "lucia",
+      "miembros": [
+        "lucia",
+        "carlos",
+        "rosa",
+        "miguel",
+        "jorge",
+        "juan"
+      ],
+      "mensajes": [
+        [
+          "sistema",
+          null,
+          "Lucía creó la sala. ¡Comparte el código STROSA!"
+        ],
+        [
+          "texto",
+          "lucia",
+          "¡Hola vecinos! Este mes vamos por 120 kg 💪"
+        ],
+        [
+          "texto",
+          "rosa",
+          "Yo tengo bastante papel guardado, lo pido para el lunes."
+        ],
+        [
+          "logro",
+          null,
+          "Carlos aportó 7 kg de vidrio 🌱"
+        ],
+        [
+          "texto",
+          "juan",
+          "Paso por Santa Rosa martes y jueves en la mañana, avísenme."
+        ],
+        [
+          "texto",
+          "jorge",
+          "Genial, ya separé mis latas 👍"
+        ],
+        [
+          "logro",
+          null,
+          "Lucía aportó 5 kg de plástico 🌱"
+        ]
+      ],
+      "jornadas": [
+        {
+          "titulo": "Gran recojo de cartón del parque",
+          "dias": 3,
+          "franja_horaria": "manana",
+          "punto_encuentro": "Parque Santa Rosa, esquina Jr. Los Pinos",
+          "latitud": -11.8605,
+          "longitud": -77.0712,
+          "estado": "abierta",
+          "reciclador": null,
+          "participantes": [
+            [
+              "lucia",
+              "carton",
+              6
+            ],
+            [
+              "rosa",
+              "papel",
+              4
+            ],
+            [
+              "carlos",
+              "carton",
+              3
+            ]
+          ]
+        },
+        {
+          "titulo": "Vidrio de las fiestas",
+          "dias": 1,
+          "franja_horaria": "tarde",
+          "punto_encuentro": "Losa deportiva Santa Rosa",
+          "latitud": -11.8612,
+          "longitud": -77.0722,
+          "estado": "asignada",
+          "reciclador": "juan",
+          "participantes": [
+            [
+              "miguel",
+              "vidrio",
+              5
+            ],
+            [
+              "jorge",
+              "vidrio",
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "brigada",
+      "nombre": "Brigada Verde · I.E. Fe y Alegría",
+      "descripcion": "Campaña escolar: 500 kg de papel y cartón para financiar la biblioteca.",
+      "tipo": "colegio",
+      "distrito": "Puente Piedra",
+      "meta_kg": 500,
+      "emoji": "🎒",
+      "publica": true,
+      "codigo": "BRIGV5",
+      "creador": "ana",
+      "miembros": [
+        "ana",
+        "carlos",
+        "pedro",
+        "lucia"
+      ],
+      "mensajes": [
+        [
+          "sistema",
+          null,
+          "Ana creó la sala. ¡Comparte el código BRIGV5!"
+        ],
+        [
+          "texto",
+          "ana",
+          "Familias: el viernes es la jornada de cartón. ¡Gracias por participar!"
+        ],
+        [
+          "logro",
+          null,
+          "Ana aportó 22 kg de papel 🌱"
+        ],
+        [
+          "texto",
+          "pedro",
+          "Puedo llevar el triciclo grande el viernes."
+        ]
+      ],
+      "jornadas": [
+        {
+          "titulo": "Jornada de papel · 3.er grado",
+          "dias": -6,
+          "franja_horaria": "manana",
+          "punto_encuentro": "Puerta principal del colegio",
+          "latitud": -11.855,
+          "longitud": -77.09,
+          "estado": "completada",
+          "reciclador": "pedro",
+          "participantes": [
+            [
+              "ana",
+              "papel",
+              15
+            ],
+            [
+              "carlos",
+              "papel",
+              5
+            ],
+            [
+              "lucia",
+              "carton",
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "alamos",
+      "nombre": "Condominio Los Álamos",
+      "descripcion": "Sala privada del condominio: turnos de entrega y avisos.",
+      "tipo": "condominio",
+      "distrito": "Puente Piedra",
+      "meta_kg": 60,
+      "emoji": "🏢",
+      "publica": false,
+      "codigo": "ALAM26",
+      "creador": "miguel",
+      "miembros": [
+        "miguel",
+        "rosa",
+        "rosah"
+      ],
+      "mensajes": [
+        [
+          "sistema",
+          null,
+          "Miguel creó la sala. ¡Comparte el código ALAM26!"
+        ],
+        [
+          "texto",
+          "miguel",
+          "Propongo dejar el vidrio en la entrada los sábados, así no hay que subir escaleras."
+        ],
+        [
+          "texto",
+          "rosah",
+          "De acuerdo, paso los sábados por la tarde."
+        ]
+      ]
+    }
+  ]
+}

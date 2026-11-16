@@ -1,0 +1,31 @@
+# Stack completo: docker compose up --build   →  http://localhost:4173
+services:
+  db:
+    image: postgres:16-alpine
+    environment: { POSTGRES_USER: reciapp, POSTGRES_PASSWORD: reciapp, POSTGRES_DB: reciapp }
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck: { test: ["CMD-SHELL", "pg_isready -U reciapp"], interval: 5s, timeout: 5s, retries: 10 }
+
+  api:
+    build: ./reciapp-backend
+    ports: ["8000:8000"]
+    environment:
+      DATABASE_URL: postgresql://reciapp:reciapp@db:5432/reciapp
+      SECRET_KEY: cambia-esta-clave-en-produccion
+      ACCESS_TOKEN_EXPIRE_MINUTES: "600"
+      FRONTEND_URL: http://localhost:4173,http://localhost:5173
+      LLM_PROVIDER: ${LLM_PROVIDER:-local}
+      LLM_MODEL: ${LLM_MODEL:-}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+    # Carga los datos simulados la primera vez y levanta la API
+    command: sh -c "python -m app.seed && uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    depends_on: { db: { condition: service_healthy } }
+
+  web:
+    build: { context: ./reciapp-frontend, args: { VITE_API_URL: "http://localhost:8000" } }
+    ports: ["4173:4173"]
+    depends_on: [api]
+
+volumes:
+  pgdata:

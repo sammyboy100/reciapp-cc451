@@ -1,0 +1,719 @@
+{
+  "descripcion": "Corpus etiquetado a mano por el equipo para medir la comprensión del asistente Reci (NLU local). Las frases imitan cómo hablan los vecinos de Lima. 'desarrollo' (60) se usó para ajustar las reglas; 'prueba' (20) se escribió aparte y no se usó para ajustar, así que mide la generalización.",
+  "frases": [
+    {
+      "id": 1,
+      "frase": "Quiero reciclar 3 kilos de plástico mañana en la tarde",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "plastico"
+        ],
+        "cantidad_kg": 3,
+        "dia_offset": 1,
+        "franja_horaria": "tarde"
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 2,
+      "frase": "tengo dos bolsas de botellas para recoger",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "plastico"
+        ],
+        "cantidad_kg": 6
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 3,
+      "frase": "necesito que recojan 10 kg de cartón hoy",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "carton"
+        ],
+        "cantidad_kg": 10,
+        "dia_offset": 0
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 4,
+      "frase": "quiero reciclar papel",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "papel"
+        ]
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 5,
+      "frase": "programa un recojo de 5 kilos de vidrio para el viernes en la mañana",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "vidrio"
+        ],
+        "cantidad_kg": 5,
+        "franja_horaria": "manana"
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 6,
+      "frase": "pasen por mis latas mañana",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "metal"
+        ],
+        "dia_offset": 1
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 7,
+      "frase": "tengo un celular viejo y cables para reciclar",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "electronicos"
+        ]
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 8,
+      "frase": "quiero reciclar cinco kilos de periódicos",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "papel"
+        ],
+        "cantidad_kg": 5
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 9,
+      "frase": "recojan 2 kg de botellas de vidrio pasado mañana",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "vidrio"
+        ],
+        "cantidad_kg": 2,
+        "dia_offset": 2
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 10,
+      "frase": "solicito recojo de cajas en la noche",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "carton"
+        ],
+        "franja_horaria": "noche"
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 11,
+      "frase": "necesito botar 4 kilos de restos de comida",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "organico"
+        ],
+        "cantidad_kg": 4
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 12,
+      "frase": "quiero que vengan por un saco de plástico",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "plastico"
+        ],
+        "cantidad_kg": 10
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 13,
+      "frase": "tengo 7 kg de chatarra",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "metal"
+        ],
+        "cantidad_kg": 7
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 14,
+      "frase": "reciclar 3 kilos de papel y cartón mañana",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "papel",
+          "carton"
+        ],
+        "cantidad_kg": 3,
+        "dia_offset": 1
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 15,
+      "frase": "quisiera programar un recojo de pilas",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "electronicos"
+        ]
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 16,
+      "frase": "tengo frascos y botellas de vidrio, como 6 kilos",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "vidrio"
+        ],
+        "cantidad_kg": 6
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 17,
+      "frase": "pueden recoger mis tapers el lunes por la tarde",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "plastico"
+        ],
+        "franja_horaria": "tarde"
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 18,
+      "frase": "quiero reciclar medio kilo de aluminio hoy",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "metal"
+        ],
+        "cantidad_kg": 0.5,
+        "dia_offset": 0
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 19,
+      "frase": "llevar 12 kg de cuadernos viejos",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "papel"
+        ],
+        "cantidad_kg": 12
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 20,
+      "frase": "Necesito reciclar una laptop malograda",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "electronicos"
+        ]
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 21,
+      "frase": "¿dónde está mi reciclador?",
+      "intencion": "seguimiento",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 22,
+      "frase": "ya viene el reciclador?",
+      "intencion": "seguimiento",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 23,
+      "frase": "cuánto falta para que llegue",
+      "intencion": "seguimiento",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 24,
+      "frase": "quiero rastrear mi pedido",
+      "intencion": "seguimiento",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 25,
+      "frase": "dónde viene el recolector",
+      "intencion": "seguimiento",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 26,
+      "frase": "ver mis solicitudes",
+      "intencion": "ver_solicitudes",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 27,
+      "frase": "muéstrame mi historial",
+      "intencion": "ver_solicitudes",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 28,
+      "frase": "cuál es el estado de mi recojo",
+      "intencion": "ver_solicitudes",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 29,
+      "frase": "abre mis solicitudes",
+      "intencion": "ver_solicitudes",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 30,
+      "frase": "abrir mis salas",
+      "intencion": "salas",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 31,
+      "frase": "quiero unirme a la sala de mis vecinos",
+      "intencion": "salas",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 32,
+      "frase": "cómo va la campaña del colegio",
+      "intencion": "salas",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 33,
+      "frase": "muéstrame mi comunidad",
+      "intencion": "salas",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 34,
+      "frase": "¿cuál es mi impacto?",
+      "intencion": "impacto",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 35,
+      "frase": "cuántos eco créditos tengo",
+      "intencion": "impacto",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 36,
+      "frase": "cuánto he reciclado este mes",
+      "intencion": "impacto",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 37,
+      "frase": "qué nivel tengo",
+      "intencion": "impacto",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 38,
+      "frase": "¿se recicla el vidrio roto?",
+      "intencion": "como_reciclar",
+      "slots": {
+        "tipos": [
+          "vidrio"
+        ]
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 39,
+      "frase": "cómo separo el cartón",
+      "intencion": "como_reciclar",
+      "slots": {
+        "tipos": [
+          "carton"
+        ]
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 40,
+      "frase": "qué hago con las pilas usadas",
+      "intencion": "como_reciclar",
+      "slots": {
+        "tipos": [
+          "electronicos"
+        ]
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 41,
+      "frase": "puedo reciclar cajas de pizza?",
+      "intencion": "como_reciclar",
+      "slots": {
+        "tipos": [
+          "carton"
+        ]
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 42,
+      "frase": "cómo lavo las botellas antes de reciclar",
+      "intencion": "como_reciclar",
+      "slots": {
+        "tipos": [
+          "plastico"
+        ]
+      },
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 43,
+      "frase": "pon la letra más grande",
+      "intencion": "perfil",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 44,
+      "frase": "habla más despacio por favor",
+      "intencion": "perfil",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 45,
+      "frase": "abre la configuración",
+      "intencion": "perfil",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 46,
+      "frase": "activa el alto contraste",
+      "intencion": "perfil",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 47,
+      "frase": "sí, confirmo",
+      "intencion": "confirmar",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 48,
+      "frase": "dale",
+      "intencion": "confirmar",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 49,
+      "frase": "cancela",
+      "intencion": "cancelar",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 50,
+      "frase": "mejor no",
+      "intencion": "cancelar",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 51,
+      "frase": "hola",
+      "intencion": "saludo",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 52,
+      "frase": "buenas tardes Reci",
+      "intencion": "saludo",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 53,
+      "frase": "chau, gracias",
+      "intencion": "despedida",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 54,
+      "frase": "qué puedes hacer",
+      "intencion": "ayuda",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 55,
+      "frase": "no sé cómo funciona esto",
+      "intencion": "ayuda",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 56,
+      "frase": "estoy harto, nada funciona",
+      "intencion": "emocion",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 57,
+      "frase": "hoy me siento triste",
+      "intencion": "emocion",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 58,
+      "frase": "estoy muy contento con la app",
+      "intencion": "emocion",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 59,
+      "frase": "qué solicitudes disponibles hay",
+      "intencion": "disponibles",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 60,
+      "frase": "hay pedidos para recoger cerca",
+      "intencion": "disponibles",
+      "slots": {},
+      "conjunto": "desarrollo"
+    },
+    {
+      "id": 61,
+      "frase": "oye Reci, tengo como 8 kilos de cartones para el sábado",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "carton"
+        ],
+        "cantidad_kg": 8
+      },
+      "conjunto": "prueba"
+    },
+    {
+      "id": 62,
+      "frase": "me pueden recoger el vidrio el jueves por la noche",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "vidrio"
+        ],
+        "franja_horaria": "noche"
+      },
+      "conjunto": "prueba"
+    },
+    {
+      "id": 63,
+      "frase": "quiero deshacerme de 3 bolsas de papeles",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "papel"
+        ],
+        "cantidad_kg": 9
+      },
+      "conjunto": "prueba"
+    },
+    {
+      "id": 64,
+      "frase": "agenda un recojo de electrónicos para hoy en la tarde",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "electronicos"
+        ],
+        "dia_offset": 0,
+        "franja_horaria": "tarde"
+      },
+      "conjunto": "prueba"
+    },
+    {
+      "id": 65,
+      "frase": "tengo botellas pet acumuladas, unos 4 kg",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "plastico"
+        ],
+        "cantidad_kg": 4
+      },
+      "conjunto": "prueba"
+    },
+    {
+      "id": 66,
+      "frase": "vengan por las cajas",
+      "intencion": "crear_solicitud",
+      "slots": {
+        "tipos": [
+          "carton"
+        ]
+      },
+      "conjunto": "prueba"
+    },
+    {
+      "id": 67,
+      "frase": "en qué va mi recojo, ya llegó?",
+      "intencion": "seguimiento",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 68,
+      "frase": "dónde anda el que recoge",
+      "intencion": "seguimiento",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 69,
+      "frase": "enséñame el historial de mis pedidos",
+      "intencion": "ver_solicitudes",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 70,
+      "frase": "quiero ver el grupo de mi condominio",
+      "intencion": "salas",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 71,
+      "frase": "cuántos árboles he salvado",
+      "intencion": "impacto",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 72,
+      "frase": "el aceite de cocina se bota con lo orgánico?",
+      "intencion": "como_reciclar",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 73,
+      "frase": "cómo reciclo los tetrapak",
+      "intencion": "como_reciclar",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 74,
+      "frase": "agranda la letra que no veo",
+      "intencion": "perfil",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 75,
+      "frase": "listo, confirmado",
+      "intencion": "confirmar",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 76,
+      "frase": "no, olvídalo",
+      "intencion": "cancelar",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 77,
+      "frase": "buenos días",
+      "intencion": "saludo",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 78,
+      "frase": "ayúdame por favor",
+      "intencion": "ayuda",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 79,
+      "frase": "qué rabia, otra vez el error",
+      "intencion": "emocion",
+      "slots": {},
+      "conjunto": "prueba"
+    },
+    {
+      "id": 80,
+      "frase": "hay recojos pendientes para mí?",
+      "intencion": "disponibles",
+      "slots": {},
+      "conjunto": "prueba"
+    }
+  ]
+}

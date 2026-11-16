@@ -1,0 +1,192 @@
+[
+ {
+  "pagina": "Login",
+  "ruta": "/login",
+  "violaciones": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 9,
+    "ej": [
+     "div:nth-child(7) > span :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 27.8pt (37px), font weight: normal). Expected contrast ratio of 3:1",
+     "div:nth-child(7) > span > span :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 27.8pt (37px), font weight: normal). Expected contrast ratio of 3:1",
+     "p:nth-child(1) :: Fix any of the following:   Element has insufficient color contrast of 2.36 (foreground color: #d7edc3, background color: #56a84e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "Inicio ciudadano",
+  "ruta": "/ciudadano",
+  "violaciones": [
+   {
+    "id": "aria-prohibited-attr",
+    "impact": "serious",
+    "help": "Elements must only use permitted ARIA attributes",
+    "n": 1,
+    "ej": [
+     "div:nth-child(1) > div:nth-child(4) :: Fix all of the following:   aria-label attribute cannot be used on a div with no valid role attribute."
+    ]
+   },
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 23,
+    "ej": [
+     ".nav-marca :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     ".nav-marca > span :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     "button[aria-current=\"page\"] > .largo :: Fix any of the following:   Element has insufficient color contrast of 2.44 (foreground color: #ffffff, background color: #71b66a, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "Mis solicitudes",
+  "ruta": "/ciudadano/solicitudes",
+  "violaciones": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 18,
+    "ej": [
+     ".nav-marca :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     ".nav-marca > span :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     "button:nth-child(1) > .largo :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "Salas",
+  "ruta": "/salas",
+  "violaciones": [
+   {
+    "id": "aria-prohibited-attr",
+    "impact": "serious",
+    "help": "Elements must only use permitted ARIA attributes",
+    "n": 2,
+    "ej": [
+     "div[aria-label=\"168.5 de 500 kilos\"] :: Fix all of the following:   aria-label attribute cannot be used on a div with no valid role attribute.",
+     "div[aria-label=\"109.5 de 120 kilos\"] :: Fix all of the following:   aria-label attribute cannot be used on a div with no valid role attribute."
+    ]
+   },
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 14,
+    "ej": [
+     ".nav-marca :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     ".nav-marca > span :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     "button[type=\"button\"]:nth-child(1) > .largo :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "Sala + jornadas",
+  "ruta": "/salas/1",
+  "violaciones": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 33,
+    "ej": [
+     ".nav-marca :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     ".nav-marca > span :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     "button[type=\"button\"]:nth-child(1) > .largo :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "Perfil y accesibilidad",
+  "ruta": "/perfil",
+  "violaciones": [
+   {
+    "id": "aria-prohibited-attr",
+    "impact": "serious",
+    "help": "Elements must only use permitted ARIA attributes",
+    "n": 1,
+    "ej": [
+     "div:nth-child(1) > div:nth-child(4) :: Fix all of the following:   aria-label attribute cannot be used on a div with no valid role attribute."
+    ]
+   },
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 20,
+    "ej": [
+     ".nav-marca :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     ".nav-marca > span :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     "button[type=\"button\"]:nth-child(1) > .largo :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "Encuesta SUS",
+  "ruta": "/encuesta",
+  "violaciones": [
+   {
+    "id": "aria-prohibited-attr",
+    "impact": "serious",
+    "help": "Elements must only use permitted ARIA attributes",
+    "n": 1,
+    "ej": [
+     "div[aria-label=\"Pregunta 1 de 10\"] :: Fix all of the following:   aria-label attribute cannot be used on a div with no valid role attribute."
+    ]
+   },
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 10,
+    "ej": [
+     ".nav-marca :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     ".nav-marca > span :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     "button:nth-child(1) > .largo :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "Panel reciclador",
+  "ruta": "/reciclador",
+  "violaciones": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 18,
+    "ej": [
+     ".nav-marca :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     ".nav-marca > span :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     "button[aria-current=\"page\"] > .largo :: Fix any of the following:   Element has insufficient color contrast of 2.44 (foreground color: #ffffff, background color: #71b66a, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "Métricas admin",
+  "ruta": "/admin/metricas",
+  "violaciones": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 10,
+    "ej": [
+     ".nav-marca :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     ".nav-marca > span :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+     "button:nth-child(1) > .largo :: Fix any of the following:   Element has insufficient color contrast of 2.95 (foreground color: #ffffff, background color: #56a84e, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,237 @@
+{
+  "nota": "Eventos de uso SIMULADOS para poblar el panel de métricas.",
+  "eventos": [
+    [
+      "lucia",
+      "solicitud_creada",
+      {
+        "canal": "voz",
+        "duracion_seg": 38
+      }
+    ],
+    [
+      "lucia",
+      "solicitud_creada",
+      {
+        "canal": "voz",
+        "duracion_seg": 41
+      }
+    ],
+    [
+      "lucia",
+      "solicitud_creada",
+      {
+        "canal": "tactil",
+        "duracion_seg": 76
+      }
+    ],
+    [
+      "rosa",
+      "solicitud_creada",
+      {
+        "canal": "voz",
+        "duracion_seg": 58
+      }
+    ],
+    [
+      "rosa",
+      "solicitud_creada",
+      {
+        "canal": "voz",
+        "duracion_seg": 52
+      }
+    ],
+    [
+      "carlos",
+      "solicitud_creada",
+      {
+        "canal": "tactil",
+        "duracion_seg": 34
+      }
+    ],
+    [
+      "carlos",
+      "solicitud_creada",
+      {
+        "canal": "tactil",
+        "duracion_seg": 29
+      }
+    ],
+    [
+      "jorge",
+      "solicitud_creada",
+      {
+        "canal": "texto",
+        "duracion_seg": 47
+      }
+    ],
+    [
+      "miguel",
+      "solicitud_creada",
+      {
+        "canal": "tactil",
+        "duracion_seg": 112
+      }
+    ],
+    [
+      "miguel",
+      "solicitud_creada",
+      {
+        "canal": "voz",
+        "duracion_seg": 49
+      }
+    ],
+    [
+      "ana",
+      "solicitud_creada",
+      {
+        "canal": "tactil",
+        "duracion_seg": 61
+      }
+    ],
+    [
+      "miguel",
+      "error",
+      {
+        "contexto": "nueva_solicitud_paso_4",
+        "canal": "tactil"
+      }
+    ],
+    [
+      "miguel",
+      "error",
+      {
+        "contexto": "nueva_solicitud_paso_4",
+        "canal": "tactil"
+      }
+    ],
+    [
+      "miguel",
+      "error",
+      {
+        "contexto": "nueva_solicitud_paso_4",
+        "canal": "tactil"
+      }
+    ],
+    [
+      "rosa",
+      "error",
+      {
+        "contexto": "nueva_solicitud_paso_1",
+        "canal": "tactil"
+      }
+    ],
+    [
+      "lucia",
+      "error",
+      {
+        "contexto": "asistente",
+        "canal": "tactil"
+      }
+    ],
+    [
+      "jorge",
+      "error",
+      {
+        "contexto": "crear_solicitud",
+        "canal": "tactil"
+      }
+    ],
+    [
+      "lucia",
+      "interaccion",
+      {
+        "canal": "voz",
+        "intencion": "crear_solicitud"
+      }
+    ],
+    [
+      "lucia",
+      "interaccion",
+      {
+        "canal": "voz",
+        "intencion": "impacto"
+      }
+    ],
+    [
+      "lucia",
+      "interaccion",
+      {
+        "canal": "voz",
+        "intencion": "seguimiento"
+      }
+    ],
+    [
+      "rosa",
+      "interaccion",
+      {
+        "canal": "voz",
+        "intencion": "crear_solicitud"
+      }
+    ],
+    [
+      "rosa",
+      "interaccion",
+      {
+        "canal": "voz",
+        "intencion": "perfil"
+      }
+    ],
+    [
+      "rosa",
+      "interaccion",
+      {
+        "canal": "voz",
+        "intencion": "ver_solicitudes"
+      }
+    ],
+    [
+      "jorge",
+      "interaccion",
+      {
+        "canal": "texto",
+        "intencion": "crear_solicitud"
+      }
+    ],
+    [
+      "jorge",
+      "interaccion",
+      {
+        "canal": "texto",
+        "intencion": "emocion"
+      }
+    ],
+    [
+      "miguel",
+      "interaccion",
+      {
+        "canal": "voz",
+        "intencion": "crear_solicitud"
+      }
+    ],
+    [
+      "carlos",
+      "interaccion",
+      {
+        "canal": "texto",
+        "intencion": "salas"
+      }
+    ],
+    [
+      "ana",
+      "interaccion",
+      {
+        "canal": "texto",
+        "intencion": "salas"
+      }
+    ],
+    [
+      "ana",
+      "interaccion",
+      {
+        "canal": "texto",
+        "intencion": "impacto"
+      }
+    ]
+  ]
+}

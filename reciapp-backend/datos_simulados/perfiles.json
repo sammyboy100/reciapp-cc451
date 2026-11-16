@@ -1,0 +1,88 @@
+{
+  "nota": "Se fusiona con el historial de solicitudes: materiales, franjas y dirección se aprenden al cargar las solicitudes.",
+  "perfiles": {
+    "rosa": {
+      "preferencias": {
+        "tamano_fuente": "muy_grande",
+        "alto_contraste": true,
+        "lectura_automatica": true,
+        "velocidad_voz": 0.8,
+        "modo_simple": true,
+        "tono_preferido": "auto"
+      },
+      "aprendido": {
+        "canal": {
+          "voz": 14,
+          "texto": 1,
+          "tactil": 3
+        },
+        "seg_por_solicitud": 150
+      },
+      "emociones": {
+        "actual": "calma",
+        "fuente": "declarada",
+        "historial": []
+      }
+    },
+    "lucia": {
+      "preferencias": {
+        "lectura_automatica": true
+      },
+      "aprendido": {
+        "canal": {
+          "voz": 9,
+          "texto": 3,
+          "tactil": 6
+        },
+        "seg_por_solicitud": 70
+      },
+      "emociones": {
+        "actual": "alegria",
+        "fuente": "declarada",
+        "historial": []
+      }
+    },
+    "carlos": {
+      "aprendido": {
+        "canal": {
+          "voz": 0,
+          "texto": 12,
+          "tactil": 20
+        },
+        "seg_por_solicitud": 32
+      }
+    },
+    "jorge": {
+      "preferencias": {
+        "voz_activada": false,
+        "lectura_automatica": false
+      },
+      "aprendido": {
+        "canal": {
+          "voz": 0,
+          "texto": 15,
+          "tactil": 10
+        },
+        "seg_por_solicitud": 55
+      }
+    },
+    "miguel": {
+      "preferencias": {
+        "tamano_fuente": "grande"
+      },
+      "aprendido": {
+        "canal": {
+          "voz": 6,
+          "texto": 2,
+          "tactil": 8
+        },
+        "seg_por_solicitud": 95
+      },
+      "emociones": {
+        "actual": "frustracion",
+        "fuente": "inferida",
+        "historial": []
+      }
+    }
+  }
+}

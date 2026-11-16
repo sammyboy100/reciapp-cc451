@@ -1,0 +1,28 @@
+{
+  "nota": "Resultado de la versión 1 del NLU (PC2) sobre el conjunto de desarrollo, antes de ajustar las reglas.",
+  "n": 60,
+  "precision_intencion": 0.933,
+  "precision_slots": 1.0,
+  "errores": [
+    {
+      "id": 22,
+      "frase": "ya viene el reciclador?",
+      "obtenida": "confirmar"
+    },
+    {
+      "id": 37,
+      "frase": "qué nivel tengo",
+      "obtenida": "desconocido"
+    },
+    {
+      "id": 44,
+      "frase": "habla más despacio por favor",
+      "obtenida": "desconocido"
+    },
+    {
+      "id": 46,
+      "frase": "activa el alto contraste",
+      "obtenida": "desconocido"
+    }
+  ]
+}

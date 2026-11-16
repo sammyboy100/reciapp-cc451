@@ -1,0 +1,57 @@
+[
+ {
+  "pagina": "Login",
+  "ruta": "/login",
+  "violaciones": []
+ },
+ {
+  "pagina": "Inicio ciudadano",
+  "ruta": "/ciudadano",
+  "violaciones": []
+ },
+ {
+  "pagina": "Mis solicitudes",
+  "ruta": "/ciudadano/solicitudes",
+  "violaciones": []
+ },
+ {
+  "pagina": "Salas",
+  "ruta": "/salas",
+  "violaciones": []
+ },
+ {
+  "pagina": "Sala + jornadas",
+  "ruta": "/salas/1",
+  "violaciones": []
+ },
+ {
+  "pagina": "Perfil y accesibilidad",
+  "ruta": "/perfil",
+  "violaciones": []
+ },
+ {
+  "pagina": "Encuesta SUS",
+  "ruta": "/encuesta",
+  "violaciones": []
+ },
+ {
+  "pagina": "Panel reciclador",
+  "ruta": "/reciclador",
+  "violaciones": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "n": 1,
+    "ej": [
+     "div:nth-child(6) > button :: Fix any of the following:   Element has insufficient color contrast of 1.52 (foreground color: #ffffff, background color: #ced4bf, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "Métricas admin",
+  "ruta": "/admin/metricas",
+  "violaciones": []
+ }
+]

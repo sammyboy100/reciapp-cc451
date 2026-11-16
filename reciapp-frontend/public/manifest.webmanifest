@@ -1,0 +1,23 @@
+{
+  "name": "ReciApp · Reciclaje con voz en Lima",
+  "short_name": "ReciApp",
+  "description": "Programa recojos de reciclaje con tu voz, sigue a tu reciclador en vivo y recicla en comunidad.",
+  "lang": "es-PE",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4efdc",
+  "theme_color": "#5aa84a",
+  "categories": ["lifestyle", "utilities"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Hablar con Reci", "short_name": "Reci", "url": "/ciudadano?reci=1", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Mis salas", "url": "/salas", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Mis solicitudes", "url": "/ciudadano/solicitudes", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

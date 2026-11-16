@@ -1,0 +1,101 @@
+{
+  "nota": "Respuestas SIMULADAS para probar el panel de métricas. No son resultados de pruebas con usuarios reales.",
+  "respuestas": [
+    [
+      "lucia",
+      [
+        5,
+        1,
+        5,
+        2,
+        4,
+        1,
+        5,
+        1,
+        4,
+        2
+      ],
+      "Me encanta dictarle a Reci mientras cocino."
+    ],
+    [
+      "carlos",
+      [
+        4,
+        2,
+        5,
+        1,
+        4,
+        2,
+        4,
+        1,
+        5,
+        1
+      ],
+      "Rápido, pero quisiera atajos de teclado."
+    ],
+    [
+      "rosa",
+      [
+        4,
+        2,
+        4,
+        3,
+        4,
+        2,
+        3,
+        2,
+        4,
+        3
+      ],
+      "La letra grande me ayuda mucho."
+    ],
+    [
+      "jorge",
+      [
+        4,
+        1,
+        4,
+        2,
+        5,
+        1,
+        4,
+        2,
+        4,
+        2
+      ],
+      "Bien que todo funcione sin audio."
+    ],
+    [
+      "miguel",
+      [
+        3,
+        3,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        3,
+        2
+      ],
+      "Me costó marcar el punto en el mapa."
+    ],
+    [
+      "ana",
+      [
+        5,
+        1,
+        5,
+        1,
+        5,
+        2,
+        5,
+        1,
+        5,
+        1
+      ],
+      "La sala del colegio motivó a las familias."
+    ]
+  ]
+}
